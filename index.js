@@ -2,7 +2,8 @@
 const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
 function findMatching(array,name){
-  array.filter(element=>{return element===name})
+  let result=array.filter(element=>{return element===name});
+  return result;
 }
 
 /*const sinon = require( 'sinon' )
