@@ -13,7 +13,7 @@ function findMatching(array,name){
 function fuzzyMatch(array,name){
   let result=array.filter(element=>
   {
-     return element.indexOf(name)!==-1;
+     return element.substring(0, 2).indexOf(name)!==-1;
     
   });
   return result;
