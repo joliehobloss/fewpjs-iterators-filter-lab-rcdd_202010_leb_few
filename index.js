@@ -11,7 +11,14 @@ function findMatching(array,name){
 }
 
 
-function 
+function fuzzyMatch(array,string){
+   let result=array.filter(element=>
+  {
+     element.indexOf(name.toLowerCase());
+    
+  });
+  return result;
+}
 
 /*const sinon = require( 'sinon' )
 
