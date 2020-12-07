@@ -1,5 +1,5 @@
 // Code your solution here
-  const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
+const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
 
 function findMatching(array,name){
   let result=array.filter(element=>
@@ -10,14 +10,10 @@ function findMatching(array,name){
   return result;
 }
 
+
+function 
+
 /*const sinon = require( 'sinon' )
-
-    it('returns an empty array if there is no match', function () {
-      const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
-
-      expect(findMatching(drivers, 'Susan')).to.eql([]);
-    });
-  });
 
   describe('fuzzyMatch()', function () {
     const drivers = [];
