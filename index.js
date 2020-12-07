@@ -10,6 +10,16 @@ function findMatching(array,name){
   return result;
 }
 
+function findMatching(array,name){
+  let result=array.filter(element=>
+  {
+    return element.toLowerCase()===name.toLowerCase();
+    
+  });
+  return result;
+}
+
+
 
  /*describe('fuzzyMatch()', function () {
     const drivers = [];
