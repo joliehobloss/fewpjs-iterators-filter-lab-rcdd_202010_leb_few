@@ -12,6 +12,7 @@ function findMatching(array,name){
 
 
 function fuzzyMatch(array,string){
+  const drivers = [];
    let result=array.filter(element=>
   {
      element.indexOf(name.toLowerCase());
