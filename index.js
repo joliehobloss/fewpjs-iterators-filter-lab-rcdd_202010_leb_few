@@ -1,5 +1,5 @@
 // Code your solution here
-const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
+  const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
 
 function findMatching(array,name){
   let result=array.filter(element=>
