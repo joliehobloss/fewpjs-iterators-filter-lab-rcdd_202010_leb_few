@@ -24,8 +24,9 @@ function matchName(array,name){
   let result=array.filter(element=>
   {
      element.name==="name";
+     return result;
   });
-  return result;
+  
 }
 
 
