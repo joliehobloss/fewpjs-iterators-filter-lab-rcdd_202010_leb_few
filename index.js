@@ -23,16 +23,15 @@ function fuzzyMatch(array,name){
 function matchName(array,name){
   let result=array.filter(element=>
   {
-    
+     element.name==="name";
   });
-  
+  return result;
 }
 
 
  /* describe('matchName()', function () {
     it('accesses the data structure to check if name matches', function () {
-      const drivers = [
-        {
+     name
           name: 'Bobby',
           hometown: 'Pittsburgh' },
         {
