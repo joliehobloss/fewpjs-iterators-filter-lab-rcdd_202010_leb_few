@@ -31,7 +31,7 @@ function matchName(array,name){
 
  /* describe('matchName()', function () {
     it('accesses the data structure to check if name matches', function () {
-     name
+     
           name: 'Bobby',
           hometown: 'Pittsburgh' },
         {
