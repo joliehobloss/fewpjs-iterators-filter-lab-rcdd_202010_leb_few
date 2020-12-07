@@ -30,8 +30,8 @@ function matchName(array,name){
 
 
  /* describe('matchName()', function () {
-    it('accesses the data structure to check if name matches', function () {
-     
+    it('accesses the data structure to check if name matches', function   const drivers = [
+        {
           name: 'Bobby',
           hometown: 'Pittsburgh' },
         {
