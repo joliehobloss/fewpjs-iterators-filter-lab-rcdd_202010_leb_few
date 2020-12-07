@@ -10,10 +10,10 @@ function findMatching(array,name){
   return result;
 }
 
-function findMatching(array,name){
+function fuzzyMatch(array,name){
   let result=array.filter(element=>
   {
-    return element.toLowerCase()===name.toLowerCase();
+     element.toLowerCase()===name.toLowerCase();
     
   });
   return result;
