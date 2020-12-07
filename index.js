@@ -20,7 +20,13 @@ function fuzzyMatch(array,name){
 }
 
 
-function 
+function matchName(array,name){
+  let result=array.filter(element=>
+  {
+    
+  });
+  
+}
 
 
  /* describe('matchName()', function () {
