@@ -28,8 +28,14 @@ function fuzzyMatch(array,string){
     beforeEach(function () {
       drivers.length = 0;
 
-      drivers.push('Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby');
-    });
+   function fuzzyMatch(array,string){
+   let result=array.filter(element=>
+  {
+     element.indexOf(name.toLowerCase());
+    
+  });
+  return result;
+}
 
     it('returns a driver if beginning provided letters match', function () {
       expect(fuzzyMatch(drivers, 'Sa')).to.have.members(['Sammy', 'Sarah', 'Sally']);
