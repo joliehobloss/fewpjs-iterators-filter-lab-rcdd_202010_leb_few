@@ -4,7 +4,7 @@
 function findMatching(array,name){
   let result=array.filter(element=>
   {
-    return element===name.toUpperCase();
+    return element.toLowerCase()===name.toLowerCase();
     
   });
   return result;
