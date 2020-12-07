@@ -13,7 +13,7 @@ function findMatching(array,name){
 function fuzzyMatch(array,name){
   let result=array.filter(element=>
   {
-     element.toLowerCase()===name.toLowerCase();
+     element.indexOf(name);
     
   });
   return result;
