@@ -27,7 +27,7 @@ function fuzzyMatch(array,name){
     beforeEach(function () {
       drivers.length = 0;
 
-      drivers.push('Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby');
+      const drivers=['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby'];
     });
 
     it('returns a driver if beginning provided letters match', function () {
